@@ -5,6 +5,8 @@ Android Shopping List UI
 
 # Shopping List App using Firestore and Firebase UI Recycler View
 ------
+## Floating action button to add item info
+![alt text](https://github.com/bdgorman/ShoppingList/blob/master/ShoppingListApp/gif%20src/add.gif)
 ## Swipe to delete functionality
 ![alt text](https://github.com/bdgorman/ShoppingList/blob/master/ShoppingListApp/gif%20src/Delete.gif)
 
