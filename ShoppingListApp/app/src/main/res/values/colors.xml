@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundfragment">#212121</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorPrimary">#757575</color>
+    <color name="colorAccent">#455A64</color>
+    <color name="green_accent">#455A64</color>
+
+    colorPrimaryDark
+    <color name="text_black_87">#de000000</color>
+    <color name="text_white_87">#f5f5f5</color>
+    <color name="background_snackbar">#2e3032</color>
+    <color name="greyish">#757575</color>
+
+
+</resources>

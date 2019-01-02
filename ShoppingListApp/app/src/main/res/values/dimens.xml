@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_margin_for_mini">23dp</dimen>
+    <dimen name="fab_progress_default_thickness">5dp</dimen>
+    <dimen name="fab_default_elevation">8dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_circle_radius">500dp</dimen>
+    <dimen name="fab_rounded_radius">10dp</dimen>
+    <dimen name="fab_background_padding">15dp</dimen>
+    <dimen name="fab_rounded_square_shadow_translation">7dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_text_horizontal_margin_normal">16dp</dimen>
+    <dimen name="fab_text_horizontal_margin_mini">8dp</dimen>
+    <dimen name="fab_step_size">2dp</dimen>
+    <dimen name="fab_menu_item_margin">8dp</dimen>
+
+    <dimen name="keyline_spacing">16dp</dimen>
+
+    <dimen name="fab_spacing">0dp</dimen>
+    <dimen name="fab_list_spacing">88dp</dimen>
+
+    <dimen name="sheet_width">210dp</dimen>
+    <dimen name="sheet_spacing">10dp</dimen>
+    <dimen name="sheet_item_spacing">@dimen/keyline_spacing</dimen>
+    <dimen name="sheet_item_image_spacing">24dp</dimen>
+    <dimen name="sheet_item_textsize">16sp</dimen>
+
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_sheet_elevation">0dp</dimen>
+
+    <dimen name="drawer_header_height">200dp</dimen>
+    <dimen name="drawer_header_textsize">20sp</dimen>
+    <dimen name="drawer_header_text_spacing">@dimen/keyline_spacing</dimen>
+
+    <dimen name="note_spacing">4dp</dimen>
+    <dimen name="note_content_spacing">16dp</dimen>
+    <dimen name="note_corner_radius">2dp</dimen>
+    <dimen name="note_textsize">14sp</dimen>
+    <dimen name="note_title_textsize">24sp</dimen>
+
+    <dimen name="snackbar_height">48dp</dimen>
+    <dimen name="snackbar_spacing">24dp</dimen>
+    <dimen name="snackbar_textsize">14sp</dimen>
+
+</resources>

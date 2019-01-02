@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:outlineSpotShadowColor="@color/colorAccent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_add_shopping_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bankbutton"
+        android:hint="Item Name"
+        android:inputType="textCapWords"
+        android:outlineAmbientShadowColor="@color/text_white_87"
+        android:textColor="@color/text_black_87"
+        android:textColorHint="@color/greyish"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bankbutton"
+        android:fontFamily="sans-serif"
+        android:hint="Item Price"
+        android:inputType="numberDecimal"
+        android:outlineAmbientShadowColor="@color/text_white_87"
+        android:textColor="@color/text_black_87"
+        android:textColorHint="@color/greyish"
+        android:textSize="18sp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="363dp"
+        android:layout_height="82dp"
+        android:background="@drawable/bankbutton">
+
+        <TextView
+            android:id="@+id/numberPickerPriorityTV"
+            android:layout_width="174dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:background="@color/text_white_87"
+            android:outlineAmbientShadowColor="@color/text_black_87"
+            android:text="Select Item Priority:"
+            android:textColor="@color/greyish"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.652" />
+
+        <NumberPicker
+            android:id="@+id/number_picker_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/text_white_87"
+            android:fadingEdge="none|vertical"
+            android:outlineAmbientShadowColor="@color/text_white_87"
+            android:theme="@style/AppTheme.Picker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
+
+
